@@ -1,7 +1,7 @@
 For my "Python for Everybody" Capstone project, I chose to produce a word cloud
 by analyzing the text transcripts of more than 400 speeches by Barack Obama.
 
-The texts were scraped from "http://www.americanrhetoric.com/barackobamaspeeches.htm" using Beautiful Soup.
+The texts were scraped from "http://www.americanrhetoric.com/barackobamaspeeches.htm" using urllib and parsed using Beautiful Soup.
 
 The scraping and cleanup/analysis is a two-step Python program.
 
