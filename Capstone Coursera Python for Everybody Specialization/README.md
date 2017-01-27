@@ -5,10 +5,10 @@ The texts were scraped from "http://www.americanrhetoric.com/barackobamaspeeches
 
 The scraping and cleanup/analysis is a two-step Python program.
 
-1) Run bs_speeches.py in the terminal to extract data and dump it to a txt file (bs_write.txt)
-2) Run gword.py to clean data, create a word-count dictionary and dump it to a
+Step 1. Run [bs_speeches.py](bs_speeches.py) in the terminal to extract data and dump it to a txt file (bs_write.txt)
+Step 2. Run [gword.py](gword.py) to clean data, create a word-count dictionary and dump it to a
 JavaScript file (the html, js and d3 files are templates provided by Coursera).
 
 Open gword.htm to view the word cloud.
 
-(a screenshot of the final output is included)
+A [screenshot](cloud_screenshot.png) of the final output is included. 
